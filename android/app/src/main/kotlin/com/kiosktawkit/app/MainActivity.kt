@@ -1,4 +1,4 @@
-package com.example.tawkit
+package com.kiosktawkit.app
 
 import io.flutter.embedding.android.FlutterActivity
 

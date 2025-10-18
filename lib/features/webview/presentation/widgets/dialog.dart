@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class BackDialog extends StatelessWidget {
-  const BackDialog({
-    super.key,
-  });
+  const BackDialog({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,32 +12,21 @@ class BackDialog extends StatelessWidget {
       actions: [
         BackButton(
           style: const ButtonStyle(
-           
-            side: WidgetStatePropertyAll(
-
-              BorderSide(
-
-                width: 2,
-              ),
-            ),
+            side: WidgetStatePropertyAll(BorderSide(width: 2)),
           ),
           onPressed: () {
             Navigator.of(context).pop();
           },
         ),
         CloseButton(
-           style: const ButtonStyle(
-            side: WidgetStatePropertyAll(
-              BorderSide(
-                width: 2,
-              ),
-            ),
+          style: const ButtonStyle(
+            side: WidgetStatePropertyAll(BorderSide(width: 2)),
           ),
           onPressed: () {
             SystemChannels.platform.invokeMethod<void>('SystemNavigator.pop');
           },
           color: Colors.red,
-        )
+        ),
       ],
     );
   }
