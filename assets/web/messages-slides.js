@@ -20,7 +20,7 @@ JS_SLIDES += "﴿ رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْ
 JS_SLIDES += "﴿رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنتَ خَيْرُ الْوَارِثِينَ﴾°°";
 JS_SLIDES += "اللَّهُمَّ مُصَرِّفَ الْقُلُوبِ صَرِّفْ قُلُوبَنَا عَلَى طَاعَتِكَ°°";
 
-// below 2 lines how to add pictures by default to slides, remove the the 2 //  to activate, write file names of your pictures ( pictures must be in "slides" folder! )
+// below 2 lines of how to add pictures by default to slides, remove the the 2 //  to activate, write file names of your pictures ( pictures must be in "slides" folder! )
 //JS_SLIDES += "demo-picture.jpg°°";
 //JS_SLIDES += "other-picture.jpg°°";
 

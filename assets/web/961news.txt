@@ -1,0 +1,26 @@
+Tawkit version 9.61
+-------------------------------
+The most important changes in this version:
+- Android application (with internal Gecko Browser) now available for new and old Android devices (android 5,6,7,8,9,9,10,11,12,13,14/...)
+- Navigation on TV with remote control with virtual mouse (Android apk version)
+- Fixed weather next to prayers
+- Fixed Friday name instead of Dohr on Jomoa
+- Option to turn on/off the sound On Jomoa Azan
+- Fixed the name of Muharram
+- Fixed Azkar screens that were interfering with main screen
+- Added stc font for numbers and clock
+- Added foda font for Azkar
+- Fixed problem of the slideshow duration
+- Option to customise the duration of the slideshow
+- Option to customise how long the home screen appears when playing slides
+- Change the lists of countries, cities and fixed times for prayers and Jomoa
+- Now Hijri date modification in settings-defaults.js file
+
+
+
+
+
+
+
+
+

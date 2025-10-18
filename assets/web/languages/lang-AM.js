@@ -136,8 +136,7 @@
 	XX_IqamaHadith		: "Show Iqama Hadith, 33sec before Iqama.",
 	cx_PrimaryAzan		: "1st-fajr alert | X minutes before real-fajr to notify with sound. Click to change : ",
 	cx_CounterColorAlert: "Change counter color to red at last 90 seconds.",
-	
-	cx_UseThemeBG		: "Use theme picture as a background for azkar and slides",
+
 	cx_ShowAzanScreen	: "Show Azan Screen",
 	cx_RoundCounterInVR	: "Use Round Counter in VR mode",
 	cx_BiggerNextPray	: "Bigger Next-Pray Counter",
@@ -151,5 +150,12 @@
 	cx_Eid_AdhaTime			: "Show Eid-ADHA Pray time : ",
 	cx_Salat_Eid_FITR		: "Eid-FITR Pray time",
 	cx_Salat_Eid_ADHA		: "Eid-ADHA Pray time",
+	
+	cx_Jomoa_AzanOnOff		: "Activate Audio for Jomoa Azan",
+	cx_FixedTimeForIQAMAT	: "Fixed Time for IQAMAT : ",
+	cx_FixedTimeForJOMOA	: "Fixed Time for JOMOA",
+	cx_SlidesViewTime		: "View time for each Slide",
+	cx_TawkitViewTime		: "View time for main screen",
+	cx_SlidesScreenMaxMin	: "maximum 60 seconds, minimum 10 seconds",
 
 };

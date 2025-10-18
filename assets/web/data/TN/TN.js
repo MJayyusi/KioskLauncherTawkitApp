@@ -72,6 +72,7 @@
 "TN.JERBA.جربة",
 "TN.JILMA_.",
 "TN.KAIROUAN_.",
+"TN.KASR-JEDID.القصر الجديد",
 "TN.KASSERINE_.",
 "TN.KEBILI_.",
 "TN.KELIBIA_.",

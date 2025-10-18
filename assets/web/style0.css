@@ -75,6 +75,14 @@
     src: url('font/SFSultan-Black.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'FODA';
+    src: url('font/FodaFreeFont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --esCLOCK: gray;
     --esSALATS: gray;
@@ -121,25 +129,20 @@
 
 html,
 body {
+    width: 100%;
     height: 100%;
-    margin: 0px;
+    margin: 0;
     overflow: hidden;
     font-family: 'FreeSans';
     font-size: 9pt;
     color: var(--MenuColorFG);
     background-color: #151515;
-    -webkit-scrollbar-display: none;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    
 }
-
 body {
-    overflow-y: scroll;
+  position: relative
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
 
 hr {
     border: 1px solid #333333;
@@ -193,7 +196,7 @@ table {
 
 .SS95 {
     visibility: visible;
-    opacity: 0.94;
+    opacity: 0.96;
     transition: opacity 1.7s linear;
 }
 
@@ -228,8 +231,8 @@ table {
 
 
 
-#jc2713198960415,
-#jc2713199760415 {
+#W09221661,
+#W09222461 {
     position: absolute;
     z-index: 996;
     left: 0px;
@@ -240,7 +243,7 @@ table {
     background: black;
 }
 
-#jc2713204360415 {
+#W09227361 {
     position: absolute;
     z-index: 555;
     left: 1.0%;
@@ -254,7 +257,7 @@ table {
 
 
 
-#jc2713210460415 {
+#W09233461 {
     position: absolute;
     height: 100%;
     left: 0%;
@@ -297,15 +300,7 @@ table {
     color: var(--esLOWER);
 }
 
-.edj12 {
-    position: absolute;
-    left: 0%;
-    width: 94%;
-    padding: 3%;
-    line-height: 1.65em;
-    overflow-y: auto;
-    direction: var(--XX_LANG_DIR);
-}
+
 
 .sm140 {
     font-size: 140%;
@@ -416,14 +411,6 @@ a {
 #Jz_xdim5 {color:white; text-align:center;}
 
 
-#jc2713186160415 {width: 100%; padding: 5px; text-align: center;}
-
-#jc2713186160415 tr td:nth-child(1) {width:70%; text-align:left;}
-#jc2713186160415 tr td:nth-child(2) {width:30%; text-align:left;}
-
-#jc2713186160415 tr td:nth-child(1):lang(AR) {text-align:right;}
-#jc2713186160415 tr td:nth-child(2):lang(AR) {text-align:right;}
-
 .ctb1 {
     width: 100%;
     padding: 5px;
@@ -452,17 +439,6 @@ a {
 .ctb2 tr td:nth-child(3) {width:15%; text-align:left;}
 .ctb2 tr td:nth-child(4) {width:15%; text-align:left;}
 
-#jc2713211060415 {
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-    padding-bottom: 2%;
-    border-bottom: 2px solid gray;
-    background-color:#151515;
-}
-#jc2713211060415 tr td:nth-child(1) {width:100%; text-align:left;}
-#jc2713211060415 tr td:nth-child(1):lang(AR) {text-align:right;}
-
 
 .btmline {
     border-bottom: 1px solid;
@@ -483,8 +459,14 @@ a {
     width: 40%
 }
 
-.w45 {
-    width: 45%
+#W09227861 {
+    position: absolute;
+    left: 10%;
+    top: 37%;
+    width: 70%;
+    text-align: left;
+    color:gray;
+    font-size :80%;
 }
 
 input[type='checkbox'] {
@@ -505,6 +487,7 @@ label {
     left: 0%;
     top: 0%;
     width: 100%;
+    background-color: #282828;
 }
 
 .etk {
@@ -517,30 +500,26 @@ label {
 }
 
 .ets {
+    position:relative;
     width: 60%;
     text-align: left;
     display: table-cell;
     vertical-align: middle;
     color: white;
-    background-color: #282828;
+    
 }
 
-.cssLocationDATA {
-    width: 85%;
-    padding: 2% 0 2% 0%;
-    color: white;
-}
 
 .CsCntr {text-align: center;}
 .CsLtr {direction: ltr;}
 
-#jc2713185160415 {
+#W09207761 {
     direction: ltr;
     padding: 5% 0%;
     text-align: center;
 }
 
-#jc2713133960415 {
+#W09155461 {
     letter-spacing: 0.05em;
     padding: 23px 0;
 }
@@ -553,7 +532,7 @@ label {
 
 
 
-#jc2713192460415 {
+#W09215161 {
     position: absolute;
     left: 0%;
     font-family: var(--guiFONTO);
@@ -566,14 +545,14 @@ label {
     text-align: right;
 }
 
-#jc2713204860415 {
+#W09227961 {
     position: absolute;
     right: 12%;
     top: 30%;
     font-size: 115%;
 }
 
-#jc2713192560415 {
+#W09215261 {
     font-family: 'FONTO';
     letter-spacing: 0.07em;
     position: absolute;
@@ -595,15 +574,6 @@ label {
     margin-right: 3%;
 }
 
-#jc2713204960415 {
-    font-family: var(--guiFONTO);
-    width: 100%
-}
-
-#jc2713204960415 option {
-    font-family: var(--guiFONTO);
-    line-height: 1em;
-}
 
 .CsminiText {
     font-size: 85%;
@@ -617,33 +587,33 @@ button {
     line-height: 1em;
 }
 
-#jc2713205060415 {
+#W09228161 {
     width: 100%;
 }
 
-#jc2713205060415 tr td:nth-child(1) {
+#W09228161 tr td:nth-child(1) {
     width: 7%;
 }
 
-#jc2713205060415 tr td:nth-child(2) {
+#W09228161 tr td:nth-child(2) {
     width: 7%;
     text-align: center;
 }
 
-#jc2713205060415 tr td:nth-child(3) {
+#W09228161 tr td:nth-child(3) {
     width: 15%;
 }
 
-#jc2713205060415 tr td:nth-child(4) {
+#W09228161 tr td:nth-child(4) {
     width: 64%;
 }
 
-#jc2713205060415 tr td:nth-child(5) {
+#W09228161 tr td:nth-child(5) {
     width: 7%;
     text-align: right;
 }
 
-#jc2713205060415 td {
+#W09228161 td {
     vertical-align: top;
     font-family: 'FreeSans';
     font-size: 60%;
@@ -652,31 +622,31 @@ button {
     border-bottom: 1px dashed silver;
 }
 
-#jc2713205060415 tr td:nth-child(4) {
+#W09228161 tr td:nth-child(4) {
     font-family: var(--guiFONTO);
     direction: rtl;
     text-align: right;
 }
 
-#jc2713176260415 {
+#W09198461 {
     width: 100%;
 }
 
-#jc2713176260415 tr td:nth-child(1) {
+#W09198461 tr td:nth-child(1) {
     width: 10%;
 }
 
-#jc2713176260415 tr td:nth-child(2) {
+#W09198461 tr td:nth-child(2) {
     width: 80%;
     text-align: center;
 }
 
-#jc2713176260415 tr td:nth-child(3) {
+#W09198461 tr td:nth-child(3) {
     width: 10%;
     text-align: right;
 }
 
-#jc2713176260415 td {
+#W09198461 td {
     vertical-align: top;
     font-family: 'FreeSans';
     font-size: 85%;
@@ -684,12 +654,13 @@ button {
     border-bottom: 1px dashed silver;
 }
 
-#jc2713176260415 tr td:nth-child(2) {
+#W09198461 tr td:nth-child(2) {
     font-family: var(--guiFONTO);
     line-height: 1.9em;
     direction: rtl;
     text-align: right;
 }
+
 
 .eaBtn {
     margin: 1.5% 0;
@@ -697,7 +668,6 @@ button {
     font-size: 1.9vw;
     padding: 1.5% 7%;
 }
-
 .cc15 {
     height: 2.3vw;
     width: 1.9vw;
@@ -734,8 +704,9 @@ li {
   padding:1.6% 0%;
 }
 
+#W09240461 {font-size:90%; margin-left:15%;}
 
-#jc2713193660415 {
+#W09216361 {
 		background: url();
 		background-repeat: no-repeat;
 		background-size: auto 100%;
@@ -766,12 +737,7 @@ li {
 .CsBGs span {color:silver;}
 
 
-#jc2713210760415,
-#jc2713210860415,
-#jc2713217460415,
-#jc2713210960415 {
-    width: 90%;
-}
+
 
 .CsPrays { width: 100%}
 .CsPrays td {
@@ -793,34 +759,33 @@ li {
 
 
 
-#jc2713154860415 {
-    width: 100%;
-    border-bottom: 1px dashed #454545;
-}
+#W09177361 { width: 100%;}
 
-#jc2713154860415 td:nth-child(1) {
+#W09177361 td:nth-child(1) {
     width: 30%;
     text-align: center;
 }
 
-#jc2713154860415 td:nth-child(2) {
+#W09177361 td:nth-child(2) {
     width: 10%;
     text-align: left;
 }
 
-#jc2713154860415 td:nth-child(3) {
+#W09177361 td:nth-child(3) {
     width: 10%;
     text-align: left;
 }
 
-#jc2713154860415 td:nth-child(4) {
+#W09177361 td:nth-child(4) {
     width: 10%;
     text-align: left;
 }
 
-#jc2713154860415 td:nth-child(5) {
+#W09177361 td:nth-child(5) {
     width: 40%;
-    text-align: left;
+    text-align: right;
+    direction: ltr;
+    padding-right:5%;
 }
 
 .CsWhite {
@@ -829,7 +794,7 @@ li {
 
 
 
-#jc2713151560415 {
+#W09174061 {
     position: absolute;
     left: 33%;
     top: 2%;
@@ -848,7 +813,11 @@ li {
     text-shadow: var(--TXT_SHDW);
 }
 
-#jc2713195460415 {
+.Cs61VR {
+    right: 7%;
+}
+
+#W09218161 {
     position: absolute;
     left: 1%;
     top: 26%;
@@ -858,7 +827,7 @@ li {
     text-align: center;
 }
 
-#jc2713209960415 {
+#W09232961 {
     position: absolute;
     left: 1.5%;
     bottom: 1.1%;
@@ -870,7 +839,7 @@ li {
 }
 
 
-#jc2713210360415 {
+#W09233361 {
     position: absolute;
     left: 1.0%;
     top: 8.7%;
@@ -881,15 +850,16 @@ li {
     visibility:var(--PSFLG);
 }
 
-#jc2713200460415 {
+#W09223161 {
     width: 100%;
 }
 
 
-#jc2713200460415 td {
+#W09223161 td {
     width: 25%;
     direction: rtl;
     text-align: right;
     font-size: 75%;
     vertical-align: top;
 }
+

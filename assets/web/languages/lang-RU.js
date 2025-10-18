@@ -142,7 +142,6 @@ XX_IQAMASCREEN		: "Показать экран Икамы перед черны�
 	cx_CounterColorAlert: "Изменить цвет счетчика на красный в последние 90 секунд",
 
 	
-	cx_UseThemeBG		: "Use theme picture as a background for azkar and slides",
 	cx_ShowAzanScreen	: "Show Azan Screen",
 	cx_RoundCounterInVR	: "Use Round Counter in VR mode",
 	cx_BiggerNextPray	: "Bigger Next-Pray Counter",
@@ -156,6 +155,13 @@ XX_IQAMASCREEN		: "Показать экран Икамы перед черны�
 	cx_Eid_AdhaTime			: "Show Eid-ADHA Pray time : ",
 	cx_Salat_Eid_FITR		: "Eid-FITR Pray time",
 	cx_Salat_Eid_ADHA		: "Eid-ADHA Pray time",
+	
+	cx_Jomoa_AzanOnOff		: "Activate Audio for Jomoa Azan",
+	cx_FixedTimeForIQAMAT	: "Fixed Time for IQAMAT : ",
+	cx_FixedTimeForJOMOA	: "Fixed Time for JOMOA",
+	cx_SlidesViewTime		: "View time for each Slide",
+	cx_TawkitViewTime		: "View time for main screen",
+	cx_SlidesScreenMaxMin	: "maximum 60 seconds, minimum 10 seconds",
 	
 	
 };

@@ -1,4 +1,9 @@
 ﻿var JS_CITIES_DATA =
 [
+"US.BROCKTON.  ",
 "US.HAMTRAMCK.  ",
+"US.HARRISBURG.  ",
+"US.MIDLAND.  ",
+"US.READING.  ",
+"US.SAN-DIEGO.  ",
 ];

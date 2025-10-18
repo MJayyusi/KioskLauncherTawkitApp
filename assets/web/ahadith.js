@@ -1,6 +1,6 @@
 ﻿/*
 Ahadith for HR and VR (Random Show)
-You can add and also DUPLICATE Important Ahadith, to Show them More often than others.
+You can also DUPLICATE Important Ahadith, to Show them More often than others.
 -------------------------------------------------------------------------------------------
 */
 const JS_AHADITH = 
