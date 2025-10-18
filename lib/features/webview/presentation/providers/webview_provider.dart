@@ -5,15 +5,20 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 final maneUrl = Provider<WebUri>((ref) => WebUri(dotenv.env['MANE_URL']!));
 
-final webviewcontrolerprovider = StateProvider<InAppWebViewController?>(
+final webviewcontrolerprovider = Provider<InAppWebViewController?>(
   (ref) => null,
 );
 
-final inAppWebViewSettingsProvider = StateProvider<InAppWebViewSettings>((ref) {
+final inAppWebViewSettingsProvider = Provider<InAppWebViewSettings>((ref) {
   return InAppWebViewSettings(
     javaScriptEnabled: true,
     allowFileAccessFromFileURLs: true,
     allowUniversalAccessFromFileURLs: true,
+    mediaPlaybackRequiresUserGesture: false, // Allow autoplay for Athan
+    allowsInlineMediaPlayback: true, // Allow inline audio
+    domStorageEnabled: true, // Enable localStorage for settings
+    databaseEnabled: true, // Enable database
+    clearCache: false, // Keep cache for settings
   );
 });
 

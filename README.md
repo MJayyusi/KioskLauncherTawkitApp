@@ -1,7 +1,54 @@
 
-# 🕌 TawkitApp - تطبيق أوقات الصلاة
+# 🕌 Kiosk Launcher Tawkit - تطبيق أوقات الصلاة
 
- 
+## 📱 Easy Installation for Android TV & Devices
+
+**Quick Download:** Use AFTV News Downloader with code: `1653113`  
+**Short URL:** [aftv.news/1653113](https://aftv.news/1653113)
+
+Perfect for sideloading on Android TVs, Fire TV, and other Android devices!
+
+## 📺 Android Device Setup Instructions
+
+### For Android TV & Google TV Devices
+
+1. **Install the APK** on your Android TV/Google TV device
+2. **Open the app** - it will start in kiosk mode
+3. **Access Settings** - Look for the small black dot button in the top-right corner
+4. **Navigate to Accessibility**:
+   - Go to **Settings** → **Accessibility** → **Services**
+   - Find **"Kiosk Launcher Tawkit Accessibility Service"**
+   - **Enable** the service
+5. **Set as Default Launcher**:
+   - Go to **Settings** → **Apps** → **Default Apps** → **Home App**
+   - Select **"Kiosk Launcher Tawkit"**
+6. **Restart** your device to activate the launcher
+
+### For Android Tablets & Phones
+
+1. **Install the APK** on your Android device
+2. **Open the app** - it will start in kiosk mode
+3. **Access Settings** - Look for the small black dot button in the top-right corner
+4. **Set as Default Launcher**:
+   - Go to **Settings** → **Apps** → **Kiosk Launcher Tawkit** → **Set as Home App**
+   - Or go to **Settings** → **Apps** → **Default Apps** → **Home App**
+   - Select **"Kiosk Launcher Tawkit"**
+5. **Restart** your device to activate the launcher
+
+### Using the Settings Button
+
+- **Touch**: Tap the small black dot in the top-right corner
+- **TV Remote**: Navigate to the black dot and press OK/Select
+- The button turns **red** when focused/selected
+- This opens system settings where you can change the default launcher
+
+### Exiting Launcher Mode
+
+- Use the **black dot button** to access system settings
+- Navigate to **Home App** settings and select a different launcher
+- The app will remain installed and can be re-enabled anytime
+
+---
 
 tawkit تم تصميمه ليسهل عملية تثبيت البرنامج الشهير لأوقات الصلاة الخاص بالمسجاد  
 
