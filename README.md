@@ -1,3 +1,9 @@
+<details>
+   
+<summary>This is deprecated, a better approach can be found here https://github.com/MJayyusi/applauncher
+</summary>
+
+
 
 # 🕌 Kiosk Launcher Tawkit - تطبيق أوقات الصلاة
 
@@ -132,3 +138,4 @@ ismail@tawkit.net
 نتمنى أن يكون هذا البرنامج مساعدًا للناس حول العالم للاهتمام بالصلاة في وقتها.  
 لا تنسَ مشاركة التطبيق مع الآخرين 🌍
 
+</details>
